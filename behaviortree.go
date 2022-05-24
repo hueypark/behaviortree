@@ -11,3 +11,7 @@ func New() *BehaviorTree {
 
 	return bt
 }
+
+func (bt *BehaviorTree) Equal(other *BehaviorTree) bool {
+	return false
+}
