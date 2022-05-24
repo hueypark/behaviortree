@@ -11,5 +11,6 @@ const (
 
 // Node represents a node in a BehaviorTree.
 type Node interface {
+	Equal(other Node) bool
 	Tick() State
 }
